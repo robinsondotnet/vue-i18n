@@ -104,6 +104,7 @@ module.exports = {
             children: [
               '/guide/formatting',
               '/guide/pluralization',
+              '/guide/boolean',
               '/guide/datetime',
               '/guide/number',
               '/guide/messages',
@@ -415,4 +416,3 @@ module.exports = {
     }
   }
 }
-

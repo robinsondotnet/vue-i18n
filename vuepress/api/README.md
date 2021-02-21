@@ -53,6 +53,23 @@ Localize the locale message of `key` with pluralization. Localize in preferentia
 Note that you need to guarantee this context equal to component instance in lifecycle methods (e.g. in `data` options, `const $tc = this.$tc.bind(this)`).
 :::
 
+#### $tb
+
+> :new: 8.0+
+
+  * **Arguments:**
+
+    * `{Path} key`: required
+    * `{boolean} choice`: optional, default `false`
+    * `{Locale} locale`: optional
+  * **Return:** `TranslateResult`
+
+Localize the locale message of `key` with pluralization. Localize in preferentially component locale messages than global locale messages. If not specified component locale messages, localize with global locale messages. If you specified `locale`, localize the locale messages of `locale`. If you will specify string value to `values`, localize the locale messages of value. If you will specify Array or Object value to `values`, you must specify with `values` of $t.
+
+:::danger Tip
+Note that you need to guarantee this context equal to component instance in lifecycle methods (e.g. in `data` options, `const $tb = this.$tb.bind(this)`).
+:::
+
 #### $te
 
   * **Arguments:**
