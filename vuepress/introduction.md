@@ -10,20 +10,84 @@ Go to [Get Started](./started.md)
 
 ## Sponsors
 
-### Silver
+### 🥇 Gold
 
 <p style="text-align: center;">
-  <a href="https://www.codeandweb.com/babeledit?utm_campaign=vue-i18n-2019-01" target="_blank">
-    <img src="/vue-i18n/patrons/babeledit.png">
+  <a
+    href="https://nuxtjs.org/"
+    style="margin: 1rem 1rem 0 1rem; width: 15rem; height: auto; display: inline-block; vertical-align: middle;"
+    target="_blank"
+    rel="noopener"
+  >
+    <img
+      style="max-width: 100%; vertical-align: midele;"
+      src="/vue-i18n/patrons/nuxt.png"
+      alt="Nuxt.js"
+    />
   </a>
 </p>
 
-## Become a Patreon
-
-Is your company using vue-i18n or vue-cli-plugin-i18n to build awesome apps? Join the other patrons and become a sponsor to add your logo on this documentation! Supporting me on Patreon allows me to work less for a job and to work more on Free Open Source Software such as vue-i18n! Thank you!
+### 🥈 Silver
 
 <p style="text-align: center;">
-  <a href="https://www.patreon.com/kazupon" target="_blank">
-    <img src="https://c5.patreon.com/external/logo/become_a_patron_button.png" alt="Become a Patreon">
+  <a
+    href="https://www.codeandweb.com/babeledit?utm_campaign=vue-i18n-2019-01"
+    style="margin: 1rem 1rem 0 1rem; width: 12rem; height: auto; display: inline-block; vertical-align: middle;"
+    target="_blank"
+    rel="noopener"
+  >
+    <img
+      style="max-width: 100%; vertical-align: midele;"
+      src="/vue-i18n/patrons/babeledit.png"
+      alt="BabelEdit translation editor for apps (web apps)"
+    />
   </a>
+</p>
+
+### 🥉 Bronze
+
+<p style="text-align: center;">
+  <a
+    href="https://zenarchitects.co.jp/"
+    style="margin: 1rem 1rem 0 1rem; width: 9rem; height: auto; display: inline-block; vertical-align: middle;"
+    target="_blank"
+    rel="noopener"
+  >
+    <img
+      style="max-width: 100%; vertical-align: midele;"
+      src="/vue-i18n/patrons/zenarchitects.png"
+      alt="zenarchitects"
+    />
+  </a>
+  <a
+    href="https://www.sendcloud.com/"
+    style="margin: 1rem 1rem 0 1rem; width: 9rem; height: auto; display: inline-block; vertical-align: middle;"
+    target="_blank"
+    rel="noopener"
+  >
+    <img
+      src="/vue-i18n/patrons/sendcloud.svg"
+      alt="sendcloud"
+    />
+  </a>
+  <a
+    href="https://www.vuemastery.com/"
+    style="margin: 1rem 1rem 0 1rem; width: 9rem; height: auto; display: inline-block; vertical-align: middle;"
+    target="_blank"
+    rel="noopener"
+  >
+    <img
+      style="max-width: 100%; vertical-align: midele;"
+      src="/vue-i18n/patrons/vuemastery.svg"
+      alt="vuemastery"
+    />
+  </a>
+</p>
+
+## Become a Sponsor
+
+Is your company using vue-i18n, vue-cli-plugin-i18n and other tools to build awesome apps? Join the GitHub and become a sponsor to add your logo on this documentation! Supporting me on Sponsor allows me to work less for a job and to work more on Free Open Source Software such as vue-i18n and [Intlify](https://github.com/intlify) projects! Thank you!
+
+<p style="text-align: center;">
+  <iframe src="https://github.com/sponsors/kazupon/card" title="Sponsor kazupon" height="225" width="600" style="border: 0; margin: 24px"></iframe>
 </p>

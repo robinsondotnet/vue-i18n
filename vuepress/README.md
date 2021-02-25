@@ -3,22 +3,77 @@ home: true
 heroImage: ./vue-i18n-logo.png
 actionText: Get Started →
 actionLink: introduction.md
-footer: MIT Licensed | Copyright © 2019 kazuya kawaguchi
+footer: MIT Licensed | Copyright © 2020 kazuya kawaguchi
 ---
 
-<div class="sponsors" style="text-align:center; padding: 0 0 24px 0;">
-  <h4>Silver Sponsors</h4>
-  <a href="https://www.codeandweb.com/babeledit?utm_campaign=vue-i18n-2019-01" target="_blank">
-    <img src="/vue-i18n/patrons/babeledit.png">
+<div class="sponsors" style="text-align:center; padding: 24px 0 24px 0;">
+  <h4>🥇 Gold Sponsors</h4>
+  <a
+    href="https://nuxtjs.org/"
+    style="margin: 1rem 1rem 0 1rem; width: 15rem; height: auto; display: inline-block; vertical-align: middle;"
+    target="_blank"
+    rel="noopener"
+  >
+    <img
+      style="max-width: 100%; vertical-align: midele;"
+      src="/vue-i18n/patrons/nuxt.png"
+      alt="Nuxt.js"
+    />
+  </a>
+  <h4 style="padding: 12px 0 0 0;">🥈 Silver Sponsors</h4>
+  <a
+    href="https://www.codeandweb.com/babeledit?utm_campaign=vue-i18n-2019-01"
+    style="margin: 1rem 1rem 0 1rem; width: 12rem; height: auto; display: inline-block; vertical-align: middle;"
+    target="_blank"
+    rel="noopener"
+  >
+    <img
+      style="max-width: 100%; vertical-align: midele;"
+      src="/vue-i18n/patrons/babeledit.png"
+      alt="BabelEdit translation editor for apps (web apps)"
+    />
+  </a>
+  <h4 style="padding: 12px 0 0 0;">🥉 Bronze Sponsors</h4>
+  <a
+    href="https://zenarchitects.co.jp/"
+    style="margin: 1rem 1rem 0 1rem; width: 9rem; height: auto; display: inline-block; vertical-align: middle;"
+    target="_blank"
+    rel="noopener"
+  >
+    <img
+      style="max-width: 100%; vertical-align: midele;"
+      src="/vue-i18n/patrons/zenarchitects.png"
+      alt="zenarchitects"
+    />
+  </a>
+  <a
+    href="https://www.sendcloud.com/"
+    style="margin: 1rem 1rem 0 1rem; width: 9rem; height: auto; display: inline-block; vertical-align: middle;"
+    target="_blank"
+    rel="noopener"
+  >
+    <img
+      style="max-width: 100%; vertical-align: midele;"
+      src="/vue-i18n/patrons/sendcloud.png"
+      alt="sendcloud"
+    />
+  </a>
+  <a
+    href="https://www.vuemastery.com/"
+    style="margin: 1rem 1rem 0 1rem; width: 9rem; height: auto; display: inline-block; vertical-align: middle;"
+    target="_blank"
+    rel="noopener"
+  >
+    <img
+      style="max-width: 100%; vertical-align: midele;"
+      src="/vue-i18n/patrons/vuemastery.png"
+      alt="vuemastery"
+    />
   </a>
 </div>
 
-<div class="patreon" style="padding: 0 0 24px 0;">
-  <p style="text-align: center;">
-    <a href="https://www.patreon.com/kazupon" target="_blank">
-      <img src="https://c5.patreon.com/external/logo/become_a_patron_button.png" alt="Become a Patreon">
-    </a>
-  </p>
+<div class="github" style="text-align:center; padding: 0 0 24px 0;">
+  <sponsor-button />
 </div>
 
 <div class="features">

@@ -97,17 +97,23 @@
   If the second `key` argument specified as an object, it should have the following properties:
   - `key {Path}`: optional, number format
   - `locale {Locale}`: optional, locale
-  - `style {string}`: optional, number format option
+  - `compactDisplay {string}`: optional, number format option
   - `currency {string}`: optional, number format option
   - `currencyDisplay {string}`: optional, number format option
+  - `currencySign {string}`: optional, number format option
+  - `localeMatcher {string}`: optional, number format option
+  - `notation {string}`: optional, number format option
+  - `numberingSystem {string}`: optional, number format option
+  - `signDisplay {string}`: optional, number format option
+  - `style {string}`: optional, number format option
+  - `unit {string}`: optional, number format option
+  - `unitDisplay {string}`: optional, number format option
   - `useGrouping {string}`: optional, number format option
   - `minimumIntegerDigits {string}`: optional, number format option
   - `minimumFractionDigits {string}`: optional, number format option
   - `maximumFractionDigits {string}`: optional, number format option
   - `minimumSignificantDigits {string}`: optional, number format option
   - `maximumSignificantDigits {string}`: optional, number format option
-  - `localeMatcher {string}`: optional, number format option
-  - `formatMatcher {string}`: optional, number format option
 
   Any specified number format options will have priority over `numberFormats` of `VueI18n` constructor.
 
@@ -159,7 +165,7 @@ You can specify the below some options of `I18nOptions` constructor options of [
 
 - **Default:** `'en-US'`
 
-  The locale of localization.
+  The locale of localization. If the locale contains a territory and a dialect, this locale contains an implicit fallback.
 
 #### fallbackLocale
 
@@ -167,7 +173,7 @@ You can specify the below some options of `I18nOptions` constructor options of [
 
 - **Default:** `'en-US'`
 
-  The locale of fallback localization.
+  The locale of fallback localization. For more complex fallback definitions see fallback.
 
 #### messages
 
@@ -530,6 +536,7 @@ You can specify the below some options of `I18nOptions` constructor options of [
   - path: required, key of locale messages
   - locale: optional, locale
   - args: optional, for list or named formatting
+  - choice: optional, for pluralization
 
 - **Examples:**
 
